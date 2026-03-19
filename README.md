@@ -1,22 +1,9 @@
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+Patch Embedding
 
-.venv/
-env/
-venv/
+TransformerEncoder
 
-runs/
-logs/
-checkpoints/
-data/
+学习率调节问题
 
-*.pt
-*.pth
-*.ckpt
+ViT 比 CNN 更难训练
 
-.idea/
-.vscode/
-
-.DS_Store
+最终 accuracy
