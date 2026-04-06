@@ -111,7 +111,7 @@ checkpoints/cifar10_vit.pth
 
 ## 为什么 ViT 更难训练
 
-这个项目本身也记录了一个典型现象：
+这个项目本身记录了一个典型现象：
 
 - ViT 在小数据集上通常比 CNN 更难收敛
 - 对学习率、batch size 和调度器更敏感
@@ -132,18 +132,17 @@ tensorboard --logdir runs
 
 ## 实验观察
 
-你可以在这里记录自己的结果，比如：
+项目中的实验记录包括：
 
 - Patch Embedding 是否收敛顺利
 - 不同学习率下的最终 accuracy
 - `StepLR` 是否改善训练稳定性
 - ViT 相比 CNN 的收敛速度差异
 
-如果要补充实验结论，建议直接把最终 `accuracy` 和训练现象写在这里。
+最终 `accuracy` 和训练现象在结果整理时统一补充到这一节。
 
 ## 注意事项
 
 - 第一次运行前需要准备好 CIFAR10 数据
 - 如果本地没有 `checkpoints` 目录，保存模型前需要先创建
 - `test.py` 目前主要是预留文件，训练逻辑已经放在 `train.py`
-
